@@ -17,7 +17,7 @@ export default function MobileMenu({ isOpen, onConsultationClick }: MobileMenuPr
         <NavLink href="#about">About</NavLink>
         <NavLink href="#process">Process</NavLink>
         <NavButton onClick={onConsultationClick}>
-          Schedule a free consultation
+          Contact
         </NavButton>
       </div>
     </div>

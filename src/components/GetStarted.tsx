@@ -21,7 +21,7 @@ export default function GetStarted() {
         
         <div className="bg-white rounded-2xl shadow-xl p-1">
           <InlineWidget 
-            url="https://calendly.com/your-scheduling-link"
+            url="https://calendly.com/haris-pepperfield/30min"
             styles={{
               height: '700px',
               width: '100%',
