@@ -19,15 +19,24 @@ const solutions = [
 
 export default function ProblemSection() {
   return (
-    <div className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
+    <div id="problem-section" className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-secondary mb-4">
+            We Have Solutions To Your Problems
+          </h2>
+          <p className="text-xl text-gray-600">
+            Transform your business challenges into opportunities for growth
+          </p>
+        </div>
+        
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           <ContentCard className="transform hover:scale-[1.02] transition-transform duration-300">
             <div className="space-y-8">
               <div>
                 <h3 className="text-red-500 font-semibold mb-2">THE PROBLEM</h3>
                 <h2 className="text-3xl font-bold text-secondary mb-6">
-                  Challenges Businesses Face Today
+                  Challenges businesses face today
                 </h2>
               </div>
               <div className="space-y-4">
@@ -48,7 +57,7 @@ export default function ProblemSection() {
               <div>
                 <h3 className="text-primary font-semibold mb-2">THE SOLUTION</h3>
                 <h2 className="text-3xl font-bold text-secondary mb-6">
-                  How We Transform Your Business
+                  How we transform your business
                 </h2>
               </div>
               <div className="space-y-4">
